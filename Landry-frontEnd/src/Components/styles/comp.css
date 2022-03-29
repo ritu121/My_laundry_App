@@ -1,0 +1,317 @@
+
+@import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+                
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.colortext{
+    color: #5861AE;
+}
+.floatleft {
+    margin: 5rem
+    10rem 10rem 10rem;
+
+}
+.chek{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabs{
+  text-align: center;
+  padding:12px;
+}
+.MuiCheckbox-colorSecondary.Mui-checked {
+    color: #5861AE !important;
+}
+.appname {
+    text-align: left;
+font: normal normal 900 20px/27px Avenir  !important;
+letter-spacing: 1.8px;
+color: #5861AE;
+text-transform: uppercase;
+opacity: 1;
+}
+.backColor{
+    background-color: #5861AE;
+}
+
+.middle{
+    top: 0px;
+left: 0px;
+width: 1440px;
+height: 500px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.signIn{
+    display: flex;
+    top: 79px;
+    left: 730px;
+    background: #B9C0FD1A 0% 0% no-repeat padding-box;
+    opacity: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.rightSignIn{
+/* UI Properties */
+background: #F8F9FF 0% 0% no-repeat padding-box;
+opacity: 1;
+display: flex;
+flex-direction: row !important;
+justify-content: center;
+}
+.MuiBox-root-12 {
+    display: flex;
+    align-items: center !important;
+    flex-direction: row-reverse ;
+}
+.box {
+    display: flex;
+    float: left;
+    justify-content: center;
+    padding: 10px 100px 15px 100px;
+    flex-direction: column;
+}
+input{
+    border-bottom: 2px solid black !important;
+}
+
+
+.tabs{
+    float:right !important;
+}
+.MuiToolbar-root {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between !important;
+}
+.MuiFormControl-root {
+    width: 18rem !important;
+    margin-top: 20px !important;
+}
+
+label + .MuiInput-formControl {
+    margin-top: 30px !important;
+}
+Button{
+    border: 2px solid #4552C1 !important;
+    color:#4552C1 !important ;
+    font-family: Open Sans, Bold !important;
+    font-size:15px;
+}
+Button:hover{
+    color: #f0f0fa !important;
+    background-color: #4552C1 !important;
+}
+.leftpart{
+   font-weight: 700;
+   font-size:100px;
+   font: normal normal 900 100px/120px ;
+   align-items: left;
+   text-transform: capitalize;
+}
+.leftpart-1{
+    font-weight: 700;
+    text-align: left;
+    font-size:62px ;
+    /* font: normal normal 900 62px/80px ; */
+    letter-spacing: 2.48px;
+    color: #5861AE;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.MuiGrid-grid-xs-6 {
+    display: flex !important;
+    justify-content: center;
+    flex-direction: column;
+}
+.center{
+    text-align: center !important;
+}
+.footerh1{
+
+    /* font-weight: 700;
+    font-size:24px ;
+    color: #5861AE;
+    font-family: Open Sans; */
+    
+    font: normal normal 600 24px/26px 'Open Sans', sans-serif;
+    letter-spacing: 0.96px;
+    color: #5861AE;
+    opacity: 1;
+}
+.terms{
+
+font: italic normal normal 10px/26px 'Open Sans', sans-serif;
+letter-spacing: 0.4px;
+color: #3D3D43;
+opacity: 1;
+}
+.center h3{
+    text-align: center;
+    font: normal normal medium 18px/24px ;
+    letter-spacing: 0.18px;
+    color: #182838;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.center h2{
+text-align: center;
+font: normal normal medium 18px/24px ;
+letter-spacing: 0.18px;
+color: #182838;
+text-transform: uppercase;
+opacity: 1;
+}
+.center h4{
+    
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 15px/20px;
+    letter-spacing: 0.6px;
+    color: #3D3D43;
+    text-transform: capitalize;
+    opacity: 1;
+    padding: 10px;
+}
+.fb{
+    background: transparent url('../images/fb.png') 0% 0% no-repeat padding-box;
+    top: 1010px;
+    left: 1109px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.6;
+    padding: 10px;
+}
+.insta{
+    top: 1010px;
+    left: 1149px;
+    width: 19px;
+    height: 19px;
+    /* UI Properties */
+    background: transparent url('../images/insta.png') 0% 0% no-repeat padding-box;
+    opacity: 0.6; 
+    padding: 10px; 
+}
+.lkd{
+    top: 1010px;
+    left: 1149px;
+    width: 19px;
+    height: 19px;
+    /* UI Properties */
+    background: transparent url('../images/lkd.png') 0% 0% no-repeat padding-box;
+    opacity: 0.6;  
+}
+.refer{
+    top: 849px;
+left: 0px;
+width: 1440px;
+height: 80px;
+background: #F8F9FF 0% 0% no-repeat padding-box;
+box-shadow: 0px -3px 6px #0000000B;
+opacity: 1;
+}
+
+.icons {
+    height: 18px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+}
+.RegBtn{
+    margin: 40px 20px 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+.foot{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background: #182838 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+.content {
+    top: 1144px;
+    left: 670px;
+    width: 148px;
+    height: 18px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    font: normal normal normal 12px/24px ;
+    letter-spacing: 0.12px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.lg{
+    text-align: left;
+    /* font: normal normal normal 16px/26px Avenir; */
+    letter-spacing: 0.64px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.lg-1{
+    text-align: left;
+    font: normal normal normal 20px/32px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.mt{
+    text-align: left;
+    font: normal normal normal 20px/26px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+.makeStyles-sname2-14 {
+    color: #4552C1;
+    font-size: 32px;
+    margin-top: 3rem;
+    /* font-weight: 700; */
+    /* text-align: left; */
+    font: normal normal medium 32px/60px Avenir;
+    letter-spacing: 1.28px;
+    color: #4552C1;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.active{
+    background-color: white;
+}
+.sname3{    
+    text-align: left;
+    font-size: 32px; 
+    letter-spacing: 1.28px;
+    color: #5861AE;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+  .regFields {
+    display: flex;
+    width: 730px;
+    padding: 30px;
+    justify-content: center;
+}
+  .floatleft2 {
+    margin: 5rem 10rem -1rem 4rem;
+}
+.pass {
+    display: flex;
+    align-items: center;
+}
+

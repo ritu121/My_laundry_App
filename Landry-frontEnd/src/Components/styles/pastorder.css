@@ -1,0 +1,162 @@
+@import url('http://fonts.cdnfonts.com/css/avenir-lt-std');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+                
+*{
+    font-family: 'Avenir LT Std';
+}
+
+.header{
+    display: inline-block;
+}
+.css-1ygcj2i-MuiTableCell-root { 
+    color:#FFFFFF !important;
+    background-color: #383737;
+    padding: 16px;
+}
+
+.PastOrdersContent{
+    display: flex !important;
+}
+
+.PastOrdersContent > .TableContainer>.Toppart{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 10px 0px !important;
+    min-width: 650px !important;
+}
+.PastOrdersContent > .TableContainer> .Toppart > .TopLeft > .cntHead{
+    color: #1E2022 !important;
+}
+
+.PastOrdersContent > .TableContainer> .Toppart >.TopRight{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.PastOrdersContent > .TableContainer> .outlinebtn:hover{
+    color: #f0f0fa !important;
+    background-color: #4552C1 !important;
+}
+
+.PastOrdersContent > .TableContainer>.InputComponent > #input-with-icon-adornment {
+    border-bottom: gray;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+.PastOrdersContent > .TableContainer> .table > .tableBody> .dataTable>  .btncell > .CancelBtn{
+    border: transparent !important;
+    color: #EB1717 !important;
+}
+
+.PastOrdersContent >.TableContainer> .table > .tableBody> .dataTable>  .btncell > .CancelBtn:hover{
+    color: #EB1717 !important;
+    background-color: transparent !important;
+}
+
+.PastOrdersContent > .TableContainer> .table > .tableBody> .dataTable>  .viewcell > .vwBtn{
+    border: transparent !important;
+    color: #131212 !important;
+}
+.PastOrdersContent > .TableContainer> .table > .tableBody> .dataTable>  .viewcell > .vwBtn:hover{
+    background-color: transparent!important;
+}
+
+.css-1q2ao40 {
+    padding: 0px !important;
+    width: 415px !important;
+    height: 210px !important;
+}
+
+div.Alert-Header{
+    color: rgb(255, 255, 255);
+    height: 43px !important;
+    align-items: center;
+}
+
+.css-qm05cw-MuiTypography-root {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.6;
+    letter-spacing: 0.0075em;
+    color: #FFFFFF;
+    padding: 12px 22px !important;
+    display: inline;
+    opacity: 0.8;
+}
+
+.css-1q2ao40 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.content-inbetween {
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+}
+.dangerbtn{
+    font-size: 2.0rem !important;
+    color: rgb(244, 8, 8) !important;
+    padding: 18px !important;
+}
+
+.css-ix1f03-MuiTypography-root {
+    margin-top: 0px !important;
+}
+
+.Alert-CloseIcon{
+    color: #FFFFFF !important;
+}
+
+.danger-next{
+    margin-bottom: 35px !important;
+}
+
+.popupProceed{
+    background-color: #4552C1 !important;
+    color: #FFFFFF !important;
+}
+
+.css-ix1f03-MuiTypography-root {
+    margin: 0;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    padding-right: 54px;
+    text-align: center;
+    margin-top: 16px;
+
+}
+
+.table {
+    display: table !important;
+    min-width:fit-content !important;
+    /* min-width: 644px; */
+}
+
+.btncomponent{
+    margin-right: 30px !important ;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    padding-left: 70px !important;
+}
+
+.InputComponent{
+    width: 200px !important;
+}
+.CancelBtn{
+    color: red !important;
+    border:none !important;
+}
+.CancelBtn:hover{
+    background-color: white !important;
+    color: red !important;
+}
